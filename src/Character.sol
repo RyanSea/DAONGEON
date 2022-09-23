@@ -15,9 +15,10 @@ contract Character is ERC721 {
 
     struct Profile {
         string name;
-        uint health;
-        uint strength;
-        uint mana;
+        uint8 health;
+        uint8 strength;
+        uint8 magic;
+        uint16 mana;
         address location_dungeon;
         string location_exact;
     }
