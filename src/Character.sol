@@ -18,7 +18,7 @@ contract Character is ERC721 {
         uint8 health;
         uint8 strength;
         uint8 magic;
-        uint16 mana;
+        uint8 mana;
         address location_dungeon;
         string location_exact;
     }
