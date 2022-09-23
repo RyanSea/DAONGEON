@@ -64,7 +64,7 @@ contract Character is ERC721 {
 
         _burn(_id);
 
-        // clearn tokenURI
+        // clear tokenURI
         tokenURI[_id] = "";
 
         // clear profile
